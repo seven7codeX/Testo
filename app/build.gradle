@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.seven7codex.presidentpreview'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.seven7codex.presidentpreview'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '5.11.0-test'
+    }
+}
